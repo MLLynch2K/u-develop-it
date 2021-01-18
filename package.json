@@ -1,24 +1,15 @@
 {
-  "name": "u-develop-it",
+  "name": "vote-api",
   "version": "1.0.0",
-  "description": "The back-end for a voting web application for meetup group.",
-  "main": "index.js",
-  "dependencies": {
-    "express": "^4.17.1"
+  "description": "Back-end APIs for a voting app.",
+  "main": "server.js",
+  "devDependencies": {
+    "jest": "^25.1.0"
   },
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/MLLynch2K/u-develop-it.git"
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/MLLynch2K/u-develop-it/issues"
-  },
-  "homepage": "https://github.com/MLLynch2K/u-develop-it#readme"
+  "license": "ISC"
 }
