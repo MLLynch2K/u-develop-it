@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Back-end APIs for a voting app.",
   "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "sqlite3": "^4.1.1"
+  },
   "devDependencies": {
     "jest": "^25.1.0"
   },
@@ -17,3 +21,4 @@
   "author": "",
   "license": "ISC"
 }
+
